@@ -28,7 +28,7 @@ enum class VMKind
 {
     Interpreter,
     Legacy,
-#ifndef QTUM_BUILD
+#ifndef RUNEBASE_BUILD
     DLL
 #endif
 };

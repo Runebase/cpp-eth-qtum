@@ -136,7 +136,7 @@ void LegacyVM::caseCreate()
     updateMem(memNeed(initOff, initSize));
     updateIOGas();
 
-#ifdef QTUM_BUILD
+#ifdef RUNEBASE_BUILD
     if (endowment) BOOST_THROW_EXCEPTION(CreateWithValue());
 #endif
 
